@@ -9,12 +9,12 @@ The goal of this project is to demonstrate how SQL can be used to transform data
 
 This analysis answers the following questions:
 
-What are the highest and lowest ridership months?
-How does ridership change over time?
-What is the year-over-year change in ridership?
-Which years experienced the largest increases or decreases?
-What are the top 10 months by ridership?
-How does average ridership vary by year?
+1) What are the highest and lowest ridership months?
+2) How does ridership change over time?
+3) What is the year-over-year change in ridership?
+4) Which years experienced the largest increases or decreases?
+5) What are the top 10 months by ridership?
+6) How does average ridership vary by year?
 
 # Dataset
 
