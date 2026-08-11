@@ -64,10 +64,11 @@ The Month field was transformed using SQL string functions to extract the year a
 
 # The analysis identified several trends in MTA ridership:
 
-1) Ridership varied significantly across months.
-2) Certain months consistently ranked among the highest and lowest ridership periods.
-3) Year-over-year calculations highlighted significant changes in ridership between years.
-4) Time-based transformations were necessary to accurately organize and compare ridership data.
+1) 2020 ridership declined 62.19% YoY.
+2) Ridership recovered to 76.6% of the 2019 baseline by 2025.
+3) Manhattan had the highest cumulative ridership.
+4) Recovery accelerated through 2022 before slowing in subsequent years.
+5) 2026 is analyzed separately on a YTD basis due to incomplete data.
 
 Note: Specific findings and values are based on the results generated from the SQL queries included in this repository.
 
