@@ -20,58 +20,57 @@ This analysis answers the following questions:
 
 The dataset contains monthly MTA ridership data.
 
-Key Columns
-Column	Description
-Month	Month and year of the observation
-Ridership	Total ridership recorded for the month
+1) Key Columns
+2) Column	Description
+3) Month	Month and year of the observation
+4) Ridership	Total ridership recorded for the month
 
 The Month field was transformed using SQL string functions to extract the year and organize the data chronologically.
 
 # Limitations
 
-2017 contains incomplete data because January is unavailable.
-2026 is incomplete and is therefore analyzed on a YTD basis.
-Data referring to Staten Island is treated as an outlier given only 4 records (rows) totaling 5 rides within the timeframe is unusual.
+1) 2017 contains incomplete data because January is unavailable.
+2) 2026 is incomplete and is therefore analyzed on a YTD basis.
+3) Data referring to Staten Island is treated as an outlier given only 4 records (rows) totaling 5 rides within the timeframe is unusual.
 
 # Tools & Technologies
-SQL
-SQLite
-DB Browser for SQLite
+1) SQL
+2) SQLite
+3) DB Browser for SQLite
 
 # This project demonstrates the use of:
-SELECT
-WHERE
-GROUP BY
-ORDER BY
-LIMIT
-SUM()
-AVG()
-MIN()
-MAX()
-SUBSTR()
-Common Table Expressions (CTEs)
-Subqueries
-Year-over-year calculations
-Data transformation
-Time-based analysis
-Key Findings
+1) SELECT
+2) WHERE
+3) GROUP BY
+4) ORDER BY
+5) LIMIT
+6) SUM()
+7) AVG()
+8) MIN()
+9) MAX()
+10) SUBSTR()
+11) Common Table Expressions (CTEs)
+12) Year-over-year calculations
+13) Data transformation
+14) Time-based analysis
+15) Key Findings
 
 # The analysis identified several trends in MTA ridership:
 
-Ridership varied significantly across months.
-Certain months consistently ranked among the highest and lowest ridership periods.
-Year-over-year calculations highlighted significant changes in ridership between years.
-Time-based transformations were necessary to accurately organize and compare ridership data.
+1) Ridership varied significantly across months.
+2) Certain months consistently ranked among the highest and lowest ridership periods.
+3) Year-over-year calculations highlighted significant changes in ridership between years.
+4) Time-based transformations were necessary to accurately organize and compare ridership data.
 
 Note: Specific findings and values are based on the results generated from the SQL queries included in this repository.
 
 # Skills Demonstrated
-SQL data analysis
-Data cleaning and transformation
-Time-series analysis
-Aggregation and ranking
-Year-over-year analysis
-Business question development
-SQLite
-Data validation
-Analytical problem solving
+1) SQL data analysis
+2) Data cleaning and transformation
+3) Time-series analysis
+4) Aggregation and ranking
+5) Year-over-year analysis
+6) Business question development
+7) SQLite
+8) Data validation
+9) Analytical problem solving
