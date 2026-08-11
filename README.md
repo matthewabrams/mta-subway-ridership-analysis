@@ -48,13 +48,14 @@ The Month field was transformed using SQL string functions to extract the year a
 7) AVG()
 8) MIN()
 9) MAX()
-10) CAST()
-11) REPLACE()
-12) Common Table Expressions (CTEs)
-13) Year-over-year calculations
-14) Data transformation
-15) Time-based analysis
-16) Key Findings
+10) RANK()
+11) CAST()
+12) SUBSTR()
+13) REPLACE()
+14) Common Table Expressions (CTEs)
+15) Year-over-year calculations
+17) Time-based analysis
+18) Key Findings
 
 # The analysis identified several trends in MTA ridership:
 
