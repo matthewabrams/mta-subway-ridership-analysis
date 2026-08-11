@@ -135,8 +135,6 @@ The Tompkinsville (SIR) result immediately stands out:
 
 Without it, top results include:
 
-The top results are:
-
 Station	               -                     Borough	  -   Transfer Rate
 1) Bay Pkwy (F)	            -                  Brooklyn	   -   31.88%
 2) Jamaica-179 St (F)	          -              Queens	   -     29.25%
@@ -144,10 +142,13 @@ Station	               -                     Borough	  -   Transfer Rate
 4) Kew Gardens-Union Tpke (E,F)	        -      Queens	   -     27.89%
 5) Pelham Bay Park (6)	          -              Bronx	 -         26.89%
 6) Woodlawn (4)	               -               Bronx	    -      26.64%
-7) Tompkinsville (SIR)	                        Staten Island	 - 25.00%
-8) Flushing-Main St (7)	          -            Queens	    -    24.74%
-9) 86 St (R)	                   -               Brooklyn	   -   21.07%
-10) Middle Village-Metropolitan Av (M)	   -     Queens	     -   20.45%
+7) Flushing-Main St (7)	          -            Queens	    -    24.74%
+8) 86 St (R)	                   -               Brooklyn	   -   21.07%
+9) Middle Village-Metropolitan Av (M)	   -     Queens	     -   20.45%
+10) Van Cortlandt Park-242 St (1).       -     Bronx.      -   20.07%
+
+Manhattan stations are not in the top 10 for transfer activity rates despite having more rides over other boroughs.
+
 
 # DAX
 
