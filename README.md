@@ -1,4 +1,4 @@
-# MTA Ridership Analysis Using SQL 2017-2026
+# NYC MTA Ridership Analysis Using SQL and Power BI
 
 
 <img width="1515" height="810" alt="Screenshot 2026-08-11 172456" src="https://github.com/user-attachments/assets/0a225b87-4859-4962-99e1-8382b4f8268c" />
