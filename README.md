@@ -1,13 +1,10 @@
-<img width="1486" height="810" alt="Screenshot 2026-08-11 172041" src="https://github.com/user-attachments/assets/b4084f5e-2aad-4a80-839a-59efae5bcc18" />
-
-
-
-
-
-
-
 # MTA Ridership Analysis Using SQL 2017-2026
-Project Overview
+
+
+<img width="1515" height="810" alt="Screenshot 2026-08-11 172456" src="https://github.com/user-attachments/assets/0a225b87-4859-4962-99e1-8382b4f8268c" />
+
+
+# Project Overview
 
 This project analyzes MTA ridership data using SQL and SQLite to identify ridership trends, changes over time, and key patterns in the dataset.
 
@@ -22,7 +19,7 @@ This analysis answers the following questions:
 3) What was the largest year-over-year increase/decrease?
 4) How far did ridership fall relative to 2019?
 5) How has ridership recovered?
-6) Which stations ranked highest within each borough?
+6) Which stations are ranked high?
 
 # Dataset
 
