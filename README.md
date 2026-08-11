@@ -111,12 +111,12 @@ By 2020, the system fell to only 37.81% of 2019 ridership.
 
 Then recovery was gradual:
 
-2020 → 37.8%
-2021 → 44.9%
-2022 → 60.0%
-2023 → 68.3%
-2024 → 71.2%
-2025 → 76.6%
+1) 2020 → 37.8%
+2) 2021 → 44.9%
+3) 2022 → 60.0%
+4) 2023 → 68.3%
+5) 2024 → 71.2%
+6) 2025 → 76.6%
 
 So even though ridership has recovered substantially, 2025 was still about 23.36% below 2019.
 
