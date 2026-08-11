@@ -142,3 +142,24 @@ Station	               -                     Borough	  -   Transfer Rate
 8) Flushing-Main St (7)	          -            Queens	    -    24.74%
 9) 86 St (R)	                   -               Brooklyn	   -   21.07%
 10) Middle Village-Metropolitan Av (M)	   -     Queens	     -   20.45%
+
+# DAX
+
+A) Total Ridership = SUM('MTA_Subway_Station_Monthly_Ridership__Beginning_February_2017_20260809 (2)'[ridership])
+
+What it does:
+1) It adds together all values in the ridership column from the MTA dataset that are included in the current filter context.
+
+B) 2019 Ridership = calculate([Total Ridership],REMOVEFILTERS(DateTable),DateTable[Year]=2019)
+
+What it does:
+1) [Total Ridership] → your existing ridership measure.
+2) REMOVEFILTERS(DateTable) → removes the current year/date filters.
+3) DateTable[Year] = 2019 → then forces the calculation to use 2019.
+
+C) Recover Vs 2019 = DIVIDE([TOTAL RIDERSHIP], [2019 RIDERSHIP])
+
+What it does:
+1) It compares the currently selected year's ridership against the fixed 2019 baseline.
+2) So 80% doesn't mean ridership increased 80%. It means ridership reached 80% of the 2019 level.
+3) 2019 point should be 100%, and subsequent years show how close ridership came to the 2019 baseline.
