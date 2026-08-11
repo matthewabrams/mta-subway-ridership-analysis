@@ -1,3 +1,11 @@
+<img width="1486" height="810" alt="Screenshot 2026-08-11 172041" src="https://github.com/user-attachments/assets/b4084f5e-2aad-4a80-839a-59efae5bcc18" />
+
+
+
+
+
+
+
 # MTA Ridership Analysis Using SQL 2017-2026
 Project Overview
 
