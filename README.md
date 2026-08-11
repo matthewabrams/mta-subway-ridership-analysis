@@ -76,3 +76,69 @@ Note: Specific findings and values are based on the results generated from the S
 7) SQLite
 8) Data validation
 9) Analytical problem solving
+
+# Favorite Queries (Most Insightful and can be seen in Screenshots)
+
+Query #1 — Busiest Subway Stations Results 
+
+The data indicates that ridership is highly concentrated around major Manhattan transportation hubs. These locations connect multiple subway lines and serve major employment, commercial, tourism, and transfer destinations.
+
+Note: These are cumulative totals across the observations in your dataset, not necessarily ridership on a single day or month.
+
+Query #2 - Ridership by Borough (Overall Total Rides and Monthly Average) Results 
+
+Manhattan has by far the highest cumulative ridership, accounting for substantially more ridership than any other borough. Brooklyn is second, followed by Queens and the Bronx. The Staten Island value of 5 is clearly an anomaly relative to the rest of the dataset. The dataset contains extremely low Staten Island ridership values, suggesting incomplete, missing, or otherwise anomalous source data for that borough. Queens has a higher average than Brooklyn, despite Brooklyn having substantially higher total ridership.
+
+Query #4 — Year-over-year Ridership Change Results 
+
+The major story is clearly COVID-19's impact.
+
+Ridership was growing modestly before COVID.
+* 2020 experienced a massive 62.19% decline.
+* Recovery began in 2021 (+18.75%).
+* 2022 was the strongest recovery year at +33.58%.
+* Growth continued in 2023 (+13.93%).
+* Growth slowed considerably in 2024 (+4.14%).
+* 2025 accelerated somewhat to +7.70%.
+
+Note: 2026 figure is not comparable to a completed year as the dataset only contains part of 2026.
+
+Query #7 — COVID impact compared with 2019 
+
+2019 provides a useful pre-COVID baseline.
+
+By 2020, the system fell to only 37.81% of 2019 ridership.
+
+Then recovery was gradual:
+
+2020 → 37.8%
+2021 → 44.9%
+2022 → 60.0%
+2023 → 68.3%
+2024 → 71.2%
+2025 → 76.6%
+
+So even though ridership has recovered substantially, 2025 was still about 23.36% below 2019.
+
+Query #9 — Transfer activity relative to ridership Results
+
+This answers which stations have the highest transfer activity relative to their ridership. Note a condition was made where total ridership exceeds 1,000 rides. Without it, this would make the station at Staten Island having the highest transfer activity despite the data showing 5 rides total. 
+
+The Tompkinsville (SIR) result immediately stands out:
+1 transfer / 4 ridership = 25%
+
+Without it, top results include:
+
+The top results are:
+
+Station	                                    Borough	     Transfer Rate
+Bay Pkwy (F)	                              Brooklyn	      31.88%
+Jamaica-179 St (F)	                        Queens	        29.25%
+Jamaica Center-Parsons/Archer (E,J,Z)	      Queens	        27.96%
+Kew Gardens-Union Tpke (E,F)	              Queens	        27.89%
+Pelham Bay Park (6)	                        Bronx	          26.89%
+Woodlawn (4)	                              Bronx	          26.64%
+Tompkinsville (SIR)	                        Staten Island	  25.00%
+Flushing-Main St (7)	                      Queens	        24.74%
+86 St (R)	                                  Brooklyn	      21.07%
+Middle Village-Metropolitan Av (M)	        Queens	        20.45%
