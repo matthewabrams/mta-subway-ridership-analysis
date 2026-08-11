@@ -1,4 +1,4 @@
-# MTA Ridership Analysis Using SQL
+# MTA Ridership Analysis Using SQL 2017-2026
 Project Overview
 
 This project analyzes MTA ridership data using SQL and SQLite to identify ridership trends, changes over time, and key patterns in the dataset.
@@ -26,6 +26,12 @@ Month	Month and year of the observation
 Ridership	Total ridership recorded for the month
 
 The Month field was transformed using SQL string functions to extract the year and organize the data chronologically.
+
+# Limitations
+
+2017 contains incomplete data because January is unavailable.
+2026 is incomplete and is therefore analyzed on a YTD basis.
+Data referring to Staten Island is treated as an outlier given only 4 records (rows) totaling 5 rides within the timeframe is unusual.
 
 # Tools & Technologies
 SQL
