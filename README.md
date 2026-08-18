@@ -149,6 +149,52 @@ Station	               -                     Borough	  -   Transfer Rate
 
 Manhattan stations are not in the top 10 for transfer activity rates despite having more rides over other boroughs.
 
+Query #11 - Does higher subway ridership correspond with higher transfer activity, and does this relationship vary across NYC boroughs?
+
+A) I aggregated ridership and transfers at the station-complex level and calculated the overall Pearson correlation with CHATGPT as AI-assisted:
+
+r = 0.35
+R² = 0.12
+
+This means across all station complexes, ridership and transfer activity showed a relatively weak positive relationship (r = 0.35), with transfers accounting for approximately 12% of the variation in ridership in a simple linear model.
+
+Instead of treating every NYC station as part of one homogeneous network, I grouped the station-level observations by borough (can be found in Query #11 Part 2 screenshot)
+
+B) Queens is the strongest result:
+
+r = 0.8046
+
+R² = 0.6474
+
+That means there is a strong positive linear relationship between transfers and ridership among THE Queens station complexes.
+
+The simple linear relationship accounts for approximately 64.7% of the variation in station-level ridership within Queens.
+
+That's a major difference from the overall:
+
+12.0% → 64.7%
+
+C) Manhattan is arguably the most interesting comparison.
+
+You might expect Manhattan to have the strongest relationship because it contains many of the system's highest-ridership stations.
+
+But your results show:
+
+r = 0.3922
+
+R² = 0.1538
+
+That's substantially weaker than Queens:
+
+Queens R² = 64.7%
+
+Manhattan R² = 15.4%
+
+High ridership does not necessarily mean transfer activity is proportionally high across Manhattan stations.
+
+There may be other factors influencing Manhattan station ridership that aren't captured by transfers alone.
+
+That's an excellent opportunity for follow-up analysis.
 
 # DAX
 
